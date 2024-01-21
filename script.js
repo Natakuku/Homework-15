@@ -6,7 +6,3 @@ function removeElement(array, item) {
 }
 const newArray = removeElement(array, 5);
 console.log(newArray);
-
-const numbers = [1, 4, 9];
-const doubles = numbers.map((num) => num * 2);
-console.log(doubles)
